@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="pt-BR">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dia das Crianças — Junina Pé de Serra</title>
+  
+  <!-- Fontes do Google -->
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700;800&amp;family=Fraunces:opsz,wght@9..144,700;9..144,800&amp;display=swap" rel="stylesheet">
+  
+  <!-- CSS Customizado -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Frameworks (Tailwind CSS e Ícones Lucide) -->
+  <script src="https://cdn.tailwindcss.com/3.4.17" type="text/javascript"></script>
+  <script src="https://cdn.jsdelivr.net/npm/lucide@0.577.0/dist/umd/lucide.min.js" type="text/javascript"></script>
+ </head>
+ <body>
+  <div class="page-shell">
+   <!-- Header / Navegação -->
+   <header class="w-full border-b border-[#f1cad8] bg-white/90 backdrop-blur-md sticky top-0 z-50">
+    <nav class="max-w-6xl mx-auto px-5 py-3 flex items-center justify-between gap-4" aria-label="Navegação principal">
+     <!-- Logo -->
+     <a href="#inicio" class="flex items-center gap-3 min-w-0"> 
+      <img src="assets/img/logo.jpg" alt="Logo Junina Pé de Serra" class="w-12 h-12 rounded-full object-cover shadow-sm shrink-0"> 
+      <span class="hidden sm:inline font-bold tracking-tight text-lg text-[#6f3b52]">Junina Pé de Serra</span> 
+     </a>
+
+     <!-- Menu Desktop -->
+     <div class="hidden md:flex items-center gap-6 text-sm font-semibold text-[#6f3b52]">
+      <a class="transition-colors hover:text-[#ca7898]" href="#campanha">A Campanha</a> 
+      <a class="transition-colors hover:text-[#ca7898]" href="#momentos">Momentos</a> 
+      <a class="transition-colors hover:text-[#ca7898]" href="#ajudar">Como Ajudar</a>
+     </div>
+
+     <div class="flex items-center gap-3">
+      <!-- Botão "Falar com Presidente" mantido no Topo -->
+      <a class="bg-[#25D366] hover:bg-[#1eb857] text-white rounded-full px-5 py-2 text-sm font-bold shadow-sm transition-all hover:-translate-y-0.5 flex items-center gap-2 whitespace-nowrap" 
+         href="https://wa.me/5563985121403?text=Olá!%20Vim%20pelo%20site%20da%20Junina%20Pé%20de%20Serra%20e%20gostaria%20de%20falar%20com%20a%20Presidente!" 
+         target="_blank" rel="noopener noreferrer">
+       <i data-lucide="message-circle" class="w-4 h-4"></i>
+       <span class="hidden sm:inline">Falar com Organização</span>
+       <span class="sm:hidden">WhatsApp</span>
+      </a>
+
+      <!-- Botão Menu Hambúrguer (Mobile) -->
+      <button id="mobile-menu-button" type="button" class="md:hidden p-2 text-[#6f3b52] hover:text-[#ca7898] focus:outline-none" aria-label="Abrir Menu">
+       <i data-lucide="menu" class="w-7 h-7"></i>
+      </button>
+     </div>
+    </nav>
+
+    <!-- Menu Dropdown Mobile -->
+    <div id="mobile-menu" class="hidden md:hidden bg-white border-b border-[#f1cad8] px-5 py-4 space-y-3">
+     <a href="#campanha" class="mobile-nav-link block font-semibold text-[#6f3b52] hover:text-[#ca7898]">A Campanha</a>
+     <a href="#momentos" class="mobile-nav-link block font-semibold text-[#6f3b52] hover:text-[#ca7898]">Momentos</a>
+     <a href="#ajudar" class="mobile-nav-link block font-semibold text-[#6f3b52] hover:text-[#ca7898]">Como Ajudar</a>
+    </div>
+   </header>
+
+   <main>
+    <!-- Capa / Hero Section -->
+    <section id="inicio" class="relative min-h-[500px] flex items-center bg-[#6f3b52]">
+     <img src="assets/img/galeria-1.jpg" alt="Crianças sorrindo" class="absolute inset-0 h-full w-full object-cover">
+     <div class="absolute inset-0 hero-overlay"></div>
+     <div class="relative w-full max-w-6xl mx-auto px-5 py-20 md:py-28">
+      <div class="max-w-2xl text-white">
+       <div class="soft-ribbon inline-flex px-5 py-2 mb-6 text-sm font-extrabold tracking-wide text-white border border-white/30">
+        🎈 Edição Especial Dia das Crianças
+       </div>
+       <h1 class="display-font text-4xl md:text-6xl font-bold leading-[1.08] tracking-tight">
+        Alegria e esperança para nossas crianças
+       </h1>
+       <p class="mt-6 max-w-xl text-lg leading-relaxed text-white/95">
+        A Junina Pé de Serra convida você a transformar o Dia das Crianças em uma data inesquecível. Com sua ajuda, levaremos brinquedos, brincadeiras e muito carinho.
+       </p>
+       <div class="mt-8 flex flex-wrap gap-4">
+        <a href="#ajudar" class="inline-flex items-center gap-2 bg-[#ca7898] hover:bg-[#b85e82] text-white rounded-full px-7 py-3.5 font-bold shadow-lg transition-all hover:scale-[1.02]">
+         <i data-lucide="heart" class="w-5 h-5"></i>
+         <span>Quero Ajudar</span>
+        </a>
+       </div>
+      </div>
+     </div>
+    </section>
+
+    <!-- BANNER DE DESTAQUES (RESTAUROU CAPTURA DE TELA 1) -->
+    <section class="w-full bg-[#f3c4d3] py-8 border-y border-[#eabbca]">
+     <div class="max-w-5xl mx-auto px-5 grid grid-cols-1 md:grid-cols-3 gap-8 text-center text-[#6f3b52]">
+      <div class="flex flex-col items-center gap-2">
+       <i data-lucide="smile" class="w-8 h-8 text-[#6f3b52]"></i>
+       <p class="font-bold text-base md:text-lg">Mais sorrisos para a infância</p>
+      </div>
+      <div class="flex flex-col items-center gap-2">
+       <i data-lucide="gift" class="w-8 h-8 text-[#6f3b52]"></i>
+       <p class="font-bold text-base md:text-lg">Brincadeiras para recordar</p>
+      </div>
+      <div class="flex flex-col items-center gap-2">
+       <i data-lucide="users" class="w-8 h-8 text-[#6f3b52]"></i>
+       <p class="font-bold text-base md:text-lg">Comunidade que faz a diferença</p>
+      </div>
+     </div>
+    </section>
+
+    <!-- A Campanha -->
+    <section id="campanha" class="w-full py-16 md:py-20 bg-[#fffafd]">
+     <div class="max-w-4xl mx-auto px-5 text-center">
+      <p class="font-bold uppercase tracking-[.18em] text-sm text-[#ca7898]">Nossa Missão Solidária</p>
+      <h2 class="display-font text-3xl md:text-5xl mt-3 font-bold text-[#ca7898]">Juntos por um futuro mais feliz</h2>
+      <div class="mt-6 mx-auto h-1.5 w-16 rounded-full bg-[#f1cad8]"></div>
+      <p class="mt-6 text-lg leading-relaxed text-[#6f3b52]/90">
+       A <strong>Junina Pé de Serra</strong> tem orgulho de ir além da dança e da cultura. Todos os anos, mobilizamos nossos voluntários e parceiros para levar sorrisos e momentos mágicos às crianças de nossa comunidade.
+      </p>
+     </div>
+    </section>
+
+    <!-- GALERIA / MOMENTOS (RESTAUROU CAPTURA DE TELA 2) -->
+    <section id="momentos" class="w-full py-16 md:py-20 bg-[#fffafd]">
+     <div class="max-w-6xl mx-auto px-5">
+      <div class="text-center max-w-2xl mx-auto">
+       <p class="font-bold uppercase tracking-[.18em] text-sm text-[#ca7898]">REGISTROS CHEIOS DE AFETO</p>
+       <h2 class="display-font text-3xl md:text-5xl mt-3 font-bold text-[#ca7898]">Momentos que fazem tudo valer a pena</h2>
+       <p class="mt-4 text-[#6f3b52]/90 text-base leading-relaxed">
+        Cada sorriso, brincadeira e abraço mostra a força da nossa comunidade quando ela se une para fazer o bem.
+       </p>
+      </div>
+      
+      <!-- Fotos da Galeria -->
+      <div class="mt-10 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-12 gap-4">
+       <figure class="gallery-item overflow-hidden rounded-3xl md:col-span-5 h-[280px] shadow-sm">
+        <img src="assets/img/galeria-6.jpg" alt="Crianças brincando" class="gallery-photo w-full h-full object-cover">
+       </figure>
+       <figure class="gallery-item overflow-hidden rounded-3xl md:col-span-3 h-[280px] shadow-sm">
+        <img src="assets/img/galeria-3.jpg" alt="Criança sorrindo" class="gallery-photo w-full h-full object-cover">
+       </figure>
+       <figure class="gallery-item overflow-hidden rounded-3xl md:col-span-4 h-[280px] shadow-sm">
+        <img src="assets/img/galeria-4.jpg" alt="Entrega de presentes" class="gallery-photo w-full h-full object-cover">
+       </figure>
+       <figure class="gallery-item overflow-hidden rounded-3xl md:col-span-7 h-[260px] shadow-sm">
+        <img src="assets/img/galeria-2.jpg" alt="Festa comunitária" class="gallery-photo w-full h-full object-cover">
+       </figure>
+       <figure class="gallery-item overflow-hidden rounded-3xl md:col-span-5 h-[260px] shadow-sm">
+        <img src="assets/img/galeria-5.jpg" alt="Atividades infantis" class="gallery-photo w-full h-full object-cover">
+       </figure>
+      </div>
+     </div>
+    </section>
+
+    <!-- COMO AJUDAR (RESTAUROU CAPTURA DE TELA 3 + COMBINAR ENTREGA) -->
+    <section id="ajudar" class="w-full py-16 md:py-24 bg-[#fff0f5] border-t border-[#f1cad8]">
+     <div class="max-w-6xl mx-auto px-5">
+      <div class="text-center max-w-2xl mx-auto">
+       <p class="font-bold uppercase tracking-[.18em] text-sm text-[#ca7898]">PARTICIPE DESSA CORRENTE</p>
+       <h2 class="display-font text-3xl md:text-5xl mt-3 font-bold text-[#ca7898]">Como Você Pode Ajudar</h2>
+       <p class="mt-4 text-[#6f3b52]/90 text-base leading-relaxed">
+        Escolha a forma que mais combina com você. Toda ajuda se transforma em um Dia das Crianças mais especial.
+       </p>
+      </div>
+
+      <div class="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 items-stretch">
+       <!-- Card 1: PIX -->
+       <article class="rose-card rounded-3xl p-7 text-center flex flex-col justify-between">
+        <div>
+         <div class="w-12 h-12 rounded-full bg-[#fde4ed] text-[#ca7898] grid place-items-center mx-auto">
+          <i data-lucide="landmark" class="w-6 h-6"></i>
+         </div>
+         <h3 class="mt-4 text-lg font-bold text-[#ca7898]">PIX (Chave Telefone)</h3>
+         <div class="mt-4">
+          <p class="text-xs text-[#6f3b52]/70">Chave PIX:</p>
+          <p class="text-lg font-bold text-[#6f3b52] mt-0.5">63985121403</p>
+          <p class="text-xs text-[#6f3b52]/70 mt-1">Junina Pé de Serra</p>
+         </div>
+        </div>
+        <div class="mt-6">
+         <button id="copy-pix-button" type="button" class="w-full inline-flex items-center justify-center gap-2 bg-[#ca7898] hover:bg-[#b85e82] text-white rounded-full px-5 py-2.5 text-sm font-bold transition-all shadow-sm">
+          <i data-lucide="copy" class="w-4 h-4"></i>
+          <span>Copiar chave</span>
+         </button>
+         <p id="copied-status" class="hidden mt-2 text-xs font-bold text-emerald-600">✓ Chave copiada!</p>
+        </div>
+       </article>
+
+       <!-- Card 2: Transferência Bancária -->
+       <article class="rose-card rounded-3xl p-7 text-center flex flex-col justify-between">
+        <div>
+         <div class="w-12 h-12 rounded-full bg-[#fde4ed] text-[#ca7898] grid place-items-center mx-auto">
+          <i data-lucide="circle-dollar-sign" class="w-6 h-6"></i>
+         </div>
+         <h3 class="mt-4 text-lg font-bold text-[#ca7898]">Transferência Bancária</h3>
+         <div class="mt-4 text-xs sm:text-sm text-[#6f3b52] space-y-1">
+          <p class="font-bold">Banco: Inter</p>
+          <p class="font-bold">Ag: 0001 | CC: 15442981–3</p>
+          <p class="text-xs text-[#6f3b52]/70 mt-1">Titular: Karleane Bezerra</p>
+         </div>
+        </div>
+        <div class="mt-6"></div>
+       </article>
+
+       <!-- Card 3: Doação de Brinquedos / Doces com opção de Combinar Entrega -->
+       <article class="rose-card rounded-3xl p-7 text-center flex flex-col justify-between">
+        <div>
+         <div class="w-12 h-12 rounded-full bg-[#fde4ed] text-[#ca7898] grid place-items-center mx-auto">
+          <i data-lucide="package" class="w-6 h-6"></i>
+         </div>
+         <h3 class="mt-4 text-lg font-bold text-[#ca7898]">Doação de Brinquedos / Doces</h3>
+         <p class="mt-4 text-xs sm:text-sm text-[#6f3b52]/80 leading-relaxed">
+          Prefere doar itens físicos? Entre em contato conosco para saber os pontos de coleta mais próximos na sua região.
+         </p>
+        </div>
+        <div class="mt-6">
+         <!-- Botão Combinar Entrega -->
+         <a href="https://wa.me/5563985121403?text=Olá!%20Gostaria%20de%20combinar%20a%20entrega%20de%20doação%20de%20brinquedos/doces!" 
+            target="_blank" rel="noopener noreferrer"
+            class="w-full inline-flex items-center justify-center gap-2 bg-[#ca7898] hover:bg-[#b85e82] text-white rounded-full px-5 py-2.5 text-sm font-bold transition-all shadow-sm">
+          <i data-lucide="message-square" class="w-4 h-4"></i>
+          <span>Combinar entrega</span>
+         </a>
+        </div>
+       </article>
+      </div>
+     </div>
+    </section>
+   </main>
+
+   <!-- Footer -->
+   <footer class="w-full py-8 bg-[#6f3b52] text-white">
+    <div class="max-w-6xl mx-auto px-5 flex flex-col sm:flex-row gap-4 items-center justify-between">
+     <div class="flex items-center gap-3">
+      <img src="assets/img/logo.jpg" alt="Logo" class="w-10 h-10 rounded-full object-cover border border-white/30">
+      <p class="font-bold text-lg">Junina Pé de Serra</p>
+     </div>
+     <p class="text-sm text-white/80 text-center sm:text-right">
+      © Campanha Dia das Crianças. Todos os direitos reservados.
+     </p>
+    </div>
+   </footer>
+  </div>
+
+  <!-- Arquivo JS Customizado -->
+  <script src="script.js"></script>
+ </body>
+</html>

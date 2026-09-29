@@ -1,0 +1,68 @@
+:root {
+  --rose-ink: #6f3b52;
+  --rose-title: #ca7898;
+  --rose-dark: #b85e82;
+  --rose-soft: #fff0f5;
+  --rose-paper: #fffafd;
+  --rose-line: #f1cad8;
+  --rose-shadow: rgba(162, 88, 121, .12);
+}
+
+* { 
+  box-sizing: border-box; 
+}
+
+html { 
+  scroll-behavior: smooth; 
+}
+
+body {
+  margin: 0;
+  font-family: "DM Sans", sans-serif;
+  color: var(--rose-ink);
+  background-color: var(--rose-paper);
+}
+
+.page-shell {
+  width: 100%;
+  overflow: hidden;
+}
+
+.display-font { 
+  font-family: "Fraunces", serif; 
+}
+
+.hero-overlay {
+  background: linear-gradient(100deg, rgba(103, 49, 74, .85) 0%, rgba(180, 91, 127, .75) 51%, rgba(255, 217, 229, .45) 100%);
+}
+
+.soft-ribbon {
+  border-radius: 999px;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(4px);
+}
+
+.rose-card {
+  background-color: #ffffff;
+  box-shadow: 0 10px 28px var(--rose-shadow);
+  transition: transform .2s ease, box-shadow .2s ease;
+}
+
+.rose-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 36px rgba(162, 88, 121, .18);
+}
+
+.gallery-photo {
+  transition: transform .4s ease;
+}
+
+.gallery-item:hover .gallery-photo {
+  transform: scale(1.04);
+}
+
+button:focus-visible,
+a:focus-visible {
+  outline: 3px solid var(--rose-title);
+  outline-offset: 4px;
+}
