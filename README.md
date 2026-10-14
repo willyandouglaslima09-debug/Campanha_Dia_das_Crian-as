@@ -46,6 +46,20 @@ Landing page oficial da **Campanha do Dia das Crianças** realizada pela organiz
 - **Google Fonts:** Tipografias *DM Sans* e *Fraunces*.
 
 ---
+Link do Projeto
+O site está publicado via GitHub Pages e pode ser acedido em:
+
+👉 https://willyandouglaslima09-debug.github.io/Campanha_Dia_das_Crian-as/
+
+💛 Como Ajudar a Campanha
+PIX (Chave Telemóvel): 63985121403
+
+Titular: Junina Pé de Serra
+
+Contacto / WhatsApp: (63) 98512-1403
+
+📄 Licença
+Este projeto está licenciado sob a Licença MIT. Sinta-se à vontade para utilizar, modificar e adaptar este código para outras causas sociais e beneficentes.
 
 ##  Estrutura de Arquivos
 
@@ -55,18 +69,3 @@ Landing page oficial da **Campanha do Dia das Crianças** realizada pela organiz
 ├── style.css      # Estilos e variáveis de cores
 ├── script.js      # Lógica do menu mobile e cópia do PIX
 └── README.md      # Documentação do projeto
-
-Link do Projeto
-O site está publicado via GitHub Pages e pode ser acedido em:
-
-👉 https://willyandouglaslima09-debug.github.io/Campanha_Dia_das_Crian-as/
-
-Como Ajudar a Campanha
-PIX (Chave Telemóvel): 63985121403
-
-Titular: Junina Pé de Serra
-
-Contacto / WhatsApp: (63) 98512-1403
-
-📄 Licença
-Este projeto está licenciado sob a Licença MIT. Sinta-se à vontade para utilizar, modificar e adaptar este código para outras causas sociais e beneficentes.
