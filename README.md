@@ -13,7 +13,7 @@ Landing page oficial da **Campanha do Dia das Crianças** realizada pela organiz
 
 ---
 
-## 🚀 Funcionalidades
+##  Funcionalidades
 
 - **Design Responsivo & Moderno:** Layout adaptado para smartphones, tablets e computadores.
 - **Atendimento Direto via WhatsApp:** Links e botões dedicados para abrir conversas no WhatsApp da organização para tirar dúvidas e agendar recolha de doações.
@@ -23,7 +23,7 @@ Landing page oficial da **Campanha do Dia das Crianças** realizada pela organiz
 
 ---
 
-## 🎨 Paleta de Cores
+##  Paleta de Cores
 
 | Cor | Hexadecimal | Aplicação |
 | :--- | :--- | :--- |
@@ -37,7 +37,7 @@ Landing page oficial da **Campanha do Dia das Crianças** realizada pela organiz
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+##  Tecnologias Utilizadas
 
 - **HTML5:** Estrutura semântica e acessível.
 - **CSS3 & Tailwind CSS:** Estilização responsiva e componentes modulares.
@@ -47,7 +47,7 @@ Landing page oficial da **Campanha do Dia das Crianças** realizada pela organiz
 
 ---
 
-## 📁 Estrutura de Arquivos
+##  Estrutura de Arquivos
 
 ```text
 .
@@ -55,3 +55,18 @@ Landing page oficial da **Campanha do Dia das Crianças** realizada pela organiz
 ├── style.css      # Estilos e variáveis de cores
 ├── script.js      # Lógica do menu mobile e cópia do PIX
 └── README.md      # Documentação do projeto
+
+Link do Projeto
+O site está publicado via GitHub Pages e pode ser acedido em:
+
+👉 https://willyandouglaslima09-debug.github.io/Campanha_Dia_das_Crian-as/
+
+Como Ajudar a Campanha
+PIX (Chave Telemóvel): 63985121403
+
+Titular: Junina Pé de Serra
+
+Contacto / WhatsApp: (63) 98512-1403
+
+📄 Licença
+Este projeto está licenciado sob a Licença MIT. Sinta-se à vontade para utilizar, modificar e adaptar este código para outras causas sociais e beneficentes.
